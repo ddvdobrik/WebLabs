@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Dobrovolskii Lab#3</title>
+</head>
+<body style="margin: 0 auto; width: 25%; padding: 50px;">
+	<table border="1">
+        <tr>
+            <td colspan="2"> <h3 style="text-align: center;">Pizza shop 2.0</h3></td>
+        </tr>
+		<tr>
+			<td><label for="name">Name:</label></td>
+			<td><input type="text" id="name" name="name"></td>
+		</tr>
+        <tr>
+			<td><label for="topping">Pizza Topping</label></td>
+			<td><label>
+                <div class="circle">
+                    <input type="radio" name="topping" value="supreme">Supreme
+                </div>
+            </label>
+            <label>
+                <div class="circle">
+                    <input type="radio" name="topping" value="vegetarian">Vegetarian
+                </div>
+            </label>
+            <label>
+                <div class="circle">
+                    <input type="radio" name="topping" value="hawaiian">Hawaiian
+                </div>
+            </label></td>
+		</tr>
+		<tr>
+			<td><label for="sauce">Pizza Sauce</label></td>
+			<td><select id="sauce" name="sauce">
+                <option value="tomato">Tomato</option>
+                <option value="mazik">Mayones</option>
+              </select></td>
+		</tr>
+		<tr>
+			<td><label for="extras">Optional Extras</label></td>
+			<td><label>
+                <div class="square">
+                <input type="checkbox" name="extra" value="cheese">Extra Cheese
+                </div>
+            </label>
+            <label>
+                <div class="square">
+                <input type="checkbox" name="extra" value="noGluten">Gluten Free Base
+                </div>
+            </label></td>
+		</tr>
+		<tr>
+			<td colspan="2"><label for="message">Delivery Instructions</label><br>
+			<textarea id="message" name="message" rows="5" cols="50"></textarea></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<input type="submit" value="Send my Order">
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
